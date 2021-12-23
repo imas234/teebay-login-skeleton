@@ -40,7 +40,7 @@ const Login = () => {
                     />
                     <Divider hidden />
                     <div className="full-width centered">
-                        <Button color="purple" type='submit'>Submit</Button>
+                        <Button color="purple" type='submit'>Sign In</Button>
                     </div>
                 </Form>         
                 <Divider />

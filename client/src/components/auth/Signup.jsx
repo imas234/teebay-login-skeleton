@@ -74,7 +74,7 @@ const Signup = () => {
                     />
                     <Divider hidden />
                     <div className="full-width centered">
-                        <Button color="purple" type='submit'>Submit</Button>
+                        <Button color="purple" type='submit'>Sign Up</Button>
                     </div>
                 </Form>         
                 <Divider />
