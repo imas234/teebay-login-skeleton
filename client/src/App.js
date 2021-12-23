@@ -16,6 +16,7 @@ const AppRoutes = () => {
     <Routes>
       {!loggedIn && <Route path="login" element={<Login />} />}
       {!loggedIn && <Route path="signup" element={<Signup />} />}
+      {loggedIn && <Route path="home" element={<Home />} />}
       <Route path="*" element={loggedIn ? <Home /> : <Login />} />
     </Routes>
   );
